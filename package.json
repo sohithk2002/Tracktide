@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build",
-  "start": "next start -H 0.0.0.0 -p $PORT",
-  "lint": "next lint",
-  "postinstall": "prisma generate"
-},
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "cross-env next start -H 0.0.0.0 -p $PORT",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
   "engines": {
     "node": "18.x"
   },
@@ -27,6 +27,7 @@
     "@radix-ui/react-toast": "^1.2.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "cross-env": "^7.0.3",
     "date-fns": "^3.6.0",
     "embla-carousel-autoplay": "^8.3.1",
     "embla-carousel-react": "^8.3.1",
