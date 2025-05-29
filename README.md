@@ -73,24 +73,6 @@ cd Tracktide
 pnpm install
 ```
 
-## ⚙️ Environment Variables
-
-```env
-DATABASE_URL=your_neon_url
-CLERK_SECRET_KEY=your_clerk_secret
-CLERK_PUBLISHABLE_KEY=your_clerk_publishable
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/auth/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/auth/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-ARCJET_API_KEY=your_arcjet_key
-PIXABAY_API_KEY=your_pixabay_key
-```
-
-## 🧪 Run Locally
-
-```bash
-pnpm dev
 ```
 
 ## 🔒 Middleware Highlights
